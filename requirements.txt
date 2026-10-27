@@ -1,0 +1,40 @@
+# InvestMate AI - Requirements
+# Core
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+
+# Database
+# SQLite is built-in to Python
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Financial Calculations
+scipy>=1.10.0
+
+# Charts
+plotly>=5.15.0
+
+# AI / LLM
+groq>=0.4.0
+
+# Voice
+elevenlabs>=1.0.0
+
+# HTTP
+requests>=2.31.0
+httpx>=0.25.0
+
+# Reports
+reportlab>=4.0.0
+
+# Audio (for voice input)
+# streamlit-webrtc>=0.47.0  # Optional: uncomment if using browser mic
+soundfile>=0.12.0
+
+# Testing
+pytest>=7.4.0
+
+# Real Market Data Feed
+yfinance>=0.2.30
